@@ -1,0 +1,33 @@
+{
+    "name": "kick-nodejs",
+    "version": "1.0.0",
+    "keywords": [
+        "puppeteer",
+        "kick",
+        "streaming",
+        "nodejs",
+        "api",
+        "typescript"
+    ],
+    "author": "Michael Nadeau",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/waaverecords/kick-nodejs.git"
+    },
+    "description": "Kick.com API for Nodejs",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^20.3.1",
+        "typescript": "^5.1.3"
+    },
+    "dependencies": {
+        "puppeteer": "^20.7.2",
+        "puppeteer-extra": "^3.3.6",
+        "puppeteer-extra-plugin-stealth": "^2.11.2"
+    }
+}
